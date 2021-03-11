@@ -31,7 +31,7 @@
     <snapshotRepository>
         <id>nexus-admin</id>
         <name>snapshots</name>
-        <url>http://ec2-3-141-46-21.us-east-2.compute.amazonaws.com:8081/repository/sample1repo/</url>
+        <url>http://ec2-3-12-165-74.us-east-2.compute.amazonaws.com:8081/repository/sample1repo/</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
