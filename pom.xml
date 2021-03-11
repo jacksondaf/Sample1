@@ -22,4 +22,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+        <id>releases</id>
+        <name>releases</name>
+        <url>URL of the release repo</url>
+    </repository>    
+    <snapshotRepository>
+        <id>nexus-admin</id>
+        <name>snapshots</name>
+        <url>http://ec2-3-141-46-21.us-east-2.compute.amazonaws.com:8081/repository/sample1repo/</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
