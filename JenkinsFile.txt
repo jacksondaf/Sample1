@@ -19,9 +19,9 @@ pipeline {
       stage('Sonar') {
          steps {
                 sh 'mvn sonar:sonar \
-				  -Dsonar.projectKey=Sample1 \
-				  -Dsonar.host.url=http://ec2-3-139-239-163.us-east-2.compute.amazonaws.com:9000 \
-				  -Dsonar.login=9300f60b2e6a37b808a764205959adf9e9f0df46'
+			  -Dsonar.projectKey=Sample1 \
+			  -Dsonar.host.url=http://ec2-3-14-249-107.us-east-2.compute.amazonaws.com:9000 \
+			  -Dsonar.login=10b14cda7044a368b9842bd279b73f5b5a3ffef1'
 		}
       }
      stage('Deploy') {
